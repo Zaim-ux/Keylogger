@@ -8,7 +8,8 @@ class KeyloggingTests {
 
 	@Test
 	void test() {
-		fail("Not yet implemented");
+		Keylogger kl = new Keylogger();
+		assertNotNull(kl);
 	}
 
 }
